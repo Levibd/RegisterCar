@@ -1,0 +1,16 @@
+<html>
+
+{% block content %}
+
+    <h1>Bem-vindo a loja de carros!</h1>
+
+{% for car in cars %}
+
+    <h3>{{ car }}</h3>
+
+    {% endfor %}
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, velit.</p>
+
+    {% endblock %}
+</html>
